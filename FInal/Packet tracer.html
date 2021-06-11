@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Xalo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>Trabajo final xalo</h1>
+  <p>MONTAR <b>RED</b> LOCAL</p>
+</div>
+
+
+<div class="navbar">
+  <a href="index.html">Inicio</a>
+  <a href="Fotografia.html">Fotografia</a>
+  <a href="Presupuesto.html">Presupuesto</a>
+  <a href="Packet tracer.html">Packet Tracer</a>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>¿Que es un Packet Tracer?</h2>
+  <p>Es un programa en el que hemos hecho la simulacion de la instalacion.</p>
+    <h3>¿Como lo habeis hecho?</h3>
+    <p>Replicamos el circuito hecho por toda la clase y le pusimos un plano.</p>
+   </div>
+  <div class="main">
+    <img src="fotos/PT.JPG" style="width:1000px;height:700px;">
+  </div>
+</div>
+
+
+
+<div class="footer">
+  <h2>❤Gracias por ver esta pagina❤</h2>
+</div>
+
+</body>
+</html>
